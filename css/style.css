@@ -1,0 +1,193 @@
+h2 {
+    display: inline-block;
+    margin: 20px;
+} 
+
+.searchInput {
+    display: inline-block;
+    float:right;
+    width: 400px;
+    margin: 20px;
+    padding-left: 6px;
+    border: 1px solid lightgrey;
+}
+
+#employeeLayout {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+    table-layout: fixed;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 3%;
+}
+
+.xBtnOverlay {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.xBtnOverlay:hover {
+    color: lightgrey;
+}
+
+.line {
+    width: 90%;
+    border-top: 1px solid lightgrey;
+    margin: auto;
+}
+
+.emPhotoOverlay {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    clear: both;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.infoDivOverlay {
+    display: block;
+    width: 100%;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.emNameOverlay,
+.emUsernameOverlay,
+.emEmailOverlay, 
+.emCityOverlay, 
+.emPhoneOverlay, 
+.emAddressOverlay,
+.emDOBOverlay {
+    display: block;
+    text-align: center;
+    margin: 3%;
+    color: #00163a;
+}
+
+.emNameOverlay {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.emUsernameOverlay,
+.emEmailOverlay, 
+.emCityOverlay,
+.emPhoneOverlay, 
+.emAddressOverlay,
+.emDOBOverlay {
+    font-size: 15px;
+}
+
+.navBtn {
+    display: inline-block;
+    width: 48%;
+    height: 30px;
+    margin: auto;
+    padding: 4px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.navBtn:hover {
+    background-color: lightgrey;
+}
+
+.nav {
+    display: block;
+    width: 50%;
+    margin: auto;
+    align-content: center;
+}
+
+.overlayBlack {
+    display: none;
+    z-index: .99;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cell {
+    display: inline-block;
+    width: 30%;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 5px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 3%;
+}
+
+.cell:hover {
+   border-color: #00163a;
+}
+
+.emPhoto {
+    width: 30%;
+    height: 100px;
+    margin: 5%;
+    border-radius: 50%;
+    float: left;
+}
+
+.infoDiv {
+    width: 60%;
+    height: 100px;
+    float: left;
+    margin-top: 10%;
+    overflow: visible;
+}
+
+
+.emName, 
+.emEmail, 
+.emCity {
+    display:block; 
+    margin: 2%;
+    color: #00163a;
+    
+}
+
+.emName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.emEmail, 
+.emCity {
+    font-size: 15px;
+    color: #00163a;
+}
+
+.emEmail {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+

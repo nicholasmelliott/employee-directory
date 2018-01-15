@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Employee Directory</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>    
+    <script src="js/main.js"></script> 
+ 
+</head>
+<body>
+    <h2>Awesome Startup Employee Directory</h2>
+    <input class="searchInput" id="searchInput" type="text" placeholder="Search for an employee..">
+    <div class="overlay">
+        <div class="xBtnOverlay" id="xBtnOverlay">X</div>
+        <img class="emPhotoOverlay">
+        <div class="infoDivOverlay">
+            <span class="emNameOverlay"></span>
+            <span class="emUsernameOverlay"></span>
+            <span class="emEmailOverlay"></span>
+            <span class="emCityOverlay"></span>
+        </div>
+        <div class="line"></div>
+        <div class="infoDivOverlay">
+            <span class="emPhoneOverlay"></span>
+            <span class="emAddressOverlay"></span>
+            <span class="emDOBOverlay"></span>
+        </div>
+        <div class="nav">
+            <button class ="navBtn" id="prevBtn">Previous</button>
+            <button class ="navBtn" id="nextBtn">Next</button>
+        </div>
+    </div>
+    <div class="overlayBlack"></div>
+    <table id="employeeLayout"></table>
+</body>
+</html>
