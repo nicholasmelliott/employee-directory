@@ -218,10 +218,10 @@ $(document).ready(function(){
             const username = array[i].login.username;
             const userInput = $searchInput.val();
             //checks search input against employee's names. if input doesn't match the employee name; the employee is removed from page. 
-            if(fName.toUpperCase().indexOf(userInput.toUpperCase()) !== -1
-                || lName.toUpperCase().indexOf(userInput.toUpperCase()) !== -1 
-                || (fName.toUpperCase() + ' ' +lName.toUpperCase()).indexOf(userInput.toUpperCase()) !== -1
-                || username.toUpperCase().indexOf(userInput.toUpperCase()) !== -1){
+            if(fName.toUpperCase().startsWith(userInput.toUpperCase())
+                || lName.toUpperCase().startsWith(userInput.toUpperCase()) 
+                || (fName.toUpperCase() + ' ' +lName.toUpperCase()).startsWith(userInput.toUpperCase())
+                || username.toUpperCase().startsWith(userInput.toUpperCase())){
                     $('#employee' + i).css('display', 'inline-block');
                     searchedEmployees.push(i);
                 }else{                    
