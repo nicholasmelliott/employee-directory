@@ -265,7 +265,7 @@ $(document).ready(function(){
     /******************************************************/
 
     $.ajax({
-        url: 'https://randomuser.me/api/?results=12&nat=US&inc=name,login,email,cell,dob,location,picture',
+        url: 'https://randomuser.me/api/?results=300&nat=US&inc=name,login,email,cell,dob,location,picture',
         dataType: 'json',
         success: function(data) {
             createEmployeesArray(data);
