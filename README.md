@@ -2,6 +2,8 @@
 
 This project allows the user to view a list of random employees and search for employees using their first or last name. The employee's information is displayed in a pop-up modal. The user can also navigate through each employee using next and previous buttons.
 
+![Employee Directory Showcase](./EmployeeDirectoryExample.gif)
+
 ## Technologies
 - HTML
 - CSS
@@ -16,7 +18,7 @@ git clone https://github.com/nicholasmelliott/employee-directory.git
 2. Open the index.html file in your preferred browser.
 
 ## Usage
-- View a list of 12 random employees.
+- View a list of 300 random employees.
 - Search for employees using their first or last name.
 - View an employee's detailed information by clicking on their cell.
 - Navigate through employees using next and previous buttons.
