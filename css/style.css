@@ -1,13 +1,15 @@
 h2 {
     display: inline-block;
-    margin: 20px;
+    margin: 2%;
+    margin-left: 3.5%;
 } 
 
 .searchInput {
-    display: inline-block;
-    float:right;
+    display: block;
+    float: right;
     width: 400px;
-    margin: 20px;
+    height:40px;
+    margin: 2%;
     padding-left: 6px;
     border: 1px solid lightgrey;
 }
@@ -31,7 +33,7 @@ h2 {
     height: 500px;
     background-color: white;
     border: 2px solid lightgrey;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 
 .xBtnOverlay {
@@ -134,7 +136,7 @@ h2 {
 
 .cell {
     display: inline-block;
-    width: 30%;
+    width: 22%;
     height: 90%;
     margin-left: 2%;
     margin-top: 2%;
@@ -142,7 +144,7 @@ h2 {
     height: 150px;
     background-color: white;
     border: 2px solid lightgrey;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 
 .cell:hover {
